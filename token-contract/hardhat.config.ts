@@ -31,14 +31,14 @@ export default defineConfig({
     sepolia: {
       type: "http",
       url: "https://ethereum-sepolia-rpc.publicnode.com",
-      accounts: ["452fca669fb571540f9d42301960edabcaba9da6b8ec6d594146cb179fa174f4"],
+      accounts: [""],
       chainId: 11155111,
       timeout: 200000,
     },
   },
   verify: {
     etherscan: {
-      apiKey: "J84W6M6PQNVHU287P1NPA2JZHWNAC5UDTT",
+      apiKey: "",
     },
   },
 });
